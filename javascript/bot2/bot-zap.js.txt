@@ -1,0 +1,46 @@
+// bot-1
+
+let banco = {
+usert1:{ stage:0,}, usert2:{ stage:0,},};
+
+function getStage(user){
+	
+  return banco[user].stage;
+
+
+}
+console.log(getStage('usert1'));
+
+
+let stages = {
+
+0: {
+ descrição: "Boas Vindas",
+ obj: require("./0"),
+
+},
+
+1: {
+ descrição: "Vendas",
+ obj: require("./1"),
+
+},
+
+2: {
+ descrição: "Resumo",
+ obj: "arquivo0.js",
+
+},
+
+3: {
+ descrição: "Endereço",
+ obj: "arquivo0.js",
+
+},
+
+4: {
+ descrição: "Encerramento",
+ obj: "arquivo0.js",
+
+},
+};

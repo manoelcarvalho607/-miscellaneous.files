@@ -1,0 +1,11 @@
+var a = 'Adão'
+var b = 'José'
+var c = 'Noé'
+var d = 'Ló'
+res = 'Adão'
+
+if ( res == a){
+console.log('certo')
+} else {
+console.log('tente de novo!')
+}

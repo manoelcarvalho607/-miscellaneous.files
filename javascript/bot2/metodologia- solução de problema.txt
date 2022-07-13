@@ -1,0 +1,13 @@
+Metodologias de solução de problemas
+
+Etapa 1. Identificar o problema.
+
+Etapa 2. Estabeleça uma teoria das causas prováveis.
+
+Etapa 3. Teste da teoria para determinar a causa.
+
+Etapa 4. Estabeleça um plano de ação e implemente a solução.
+
+Etapa 5. Verificar a solução e implementar medidas preventivas.
+
+Etapa 6. Documentar as descobertas, as ações e os resultados.

@@ -1,0 +1,23 @@
+function calcularMedia( notas ){
+
+	var soma = 0;
+	for( c = 0; c < notas.length; c++) {
+		soma += notas[c];
+	}
+
+	media = soma / notas.length;
+	
+	return media;
+
+}
+
+function aprovacao ( notas ) {
+	let media = calcularMedia (notas);
+	let condicao = media >= 8 ? "aprovado" : "reprovado";
+
+	return 'Média: ' + media + '- Resultado: ' +condicao;
+}
+
+
+console.log( aprovacao([8,7,9,6]);
+	

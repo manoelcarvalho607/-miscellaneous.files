@@ -1,0 +1,26 @@
+var alunos = [
+	[8,7,8,8],
+	[8,5,3,7],
+	[9,10,2,6]
+]
+
+nota = 0;
+
+for (var i=0; i <alunos.length; i++){
+	nota = 0
+	notaAluno = alunos[i]
+	console.log("aluno: " + notaAluno);
+
+	for(c= 0; c <notaAluno.length;c++){
+		nota += notaAluno[c];
+	}
+		media = nota / 4;
+	
+	if(media >= 7){
+	resultado ="aprovado";
+	} else{
+	resultado ="reprovado";
+	}
+	
+	console.log("media: "+ media + " - " + resultado);
+}
